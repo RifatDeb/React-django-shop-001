@@ -1,0 +1,60 @@
+
+
+.profile-body{
+    margin: 70px 10px;
+    background: linear-gradient(#d0c93f ,rgba(56, 233, 40, 0.333), rgba(73, 109, 225, 0.133) );
+    border-radius: 12px;
+
+
+    .profile{
+        margin-top: 25px;
+        width: 225px;
+        height: 225px;
+        
+        .profile-img{
+            width: 225px;
+            height: 225px;
+            object-fit: fill;
+            border-radius: 12px;
+    
+        }
+    }
+
+.field{
+       display: flex;
+       text-align: center;
+       align-items: center;
+       padding: 10px;
+       margin: 5px;
+
+       label{
+        display: inline-block;
+        padding: 5px;
+      
+
+       }
+       input{
+        display: inline-block;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 15px;
+        
+       }
+    }
+
+   .btn{
+    margin: 15px;
+   }
+
+    h3{
+        padding: 20px 0px;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    
+    }
+
+}
+

@@ -1,0 +1,86 @@
+ .from{
+
+    text-align: center;
+   background: linear-gradient(rgb(99, 75, 164), rgb(151, 227, 145),rgb(167, 230, 84));
+   padding: 10px 0px;
+   margin: 30px 0px;
+   border-radius: 12px;
+ }
+
+ .from-wapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    text-align: center;
+ }
+
+.f{
+   width: 80%;
+   height: auto;
+   border-radius: 15px;
+}
+
+.from-item{
+   margin: 10px 0px;
+
+   height: auto;
+
+
+
+   label,input,textarea{
+      font-size: 20px;
+      padding: 5px 10px;
+      margin: 4px;
+      font-weight: 4s00;
+      border-radius: 12px;
+      align-items: center;
+      border: none;
+   }
+}
+
+
+
+
+
+
+
+// -------------------Responsive-Section-------------------
+
+
+
+@media all and (min-width: 120px) and (max-width: 320px) {
+
+   .from-wapper{
+
+      grid-template-columns: auto;
+
+   }
+    
+}
+
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+
+   .f{
+      width: 100%;
+      height: auto;
+   }
+   .from-wapper{
+
+      grid-template-columns: auto;
+
+   }
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+   .from-wapper{
+
+      grid-template-columns: auto;
+
+   }
+  
+    
+}
+
+

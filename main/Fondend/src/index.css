@@ -1,0 +1,111 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #bbbfbe!important;
+}
+
+.btn-1{
+
+background-color:#3B823E ;
+width: 98%;
+padding: 8px;
+border-radius: 10px;
+color: #ffff;
+outline: none;
+border: none;
+text-align: center;
+align-items: center;
+margin: 5px 0px;
+font-family: "Open Sans", sans-serif;
+font-weight: bold;
+
+}
+
+
+
+/* ---------------Card Designs start hear------------------ */
+
+
+
+.wepper{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 15px;
+    justify-self: center;
+}
+
+
+
+
+
+/* -------------------Responsive-Section------------------- */
+
+
+
+@media all and (min-width: 120px) and (max-width: 320px) {
+
+    .wepper{
+    
+        grid-template-columns: auto;
+       
+    } 
+    
+}
+
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+    .wepper{
+    
+        grid-template-columns: auto  ;
+       
+    } 
+    
+
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+
+    .wepper{
+    
+        grid-template-columns:  auto  auto;
+       
+    } 
+    
+    
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .wepper{
+    
+        grid-template-columns: auto auto auto  ;
+       
+    } 
+    
+    
+}
+
+@media all and (min-width: 1025px) and (max-width: 1200px) {
+
+    .wepper{
+    
+        grid-template-columns: auto auto auto  auto ;
+       
+    } 
+    
+  
+}
+
+/* ---------------Card Designs end hear------------------ */
+
+

@@ -1,0 +1,116 @@
+
+@use '../Base-folder/index' as var ;
+
+
+.cards{
+    width: 272px;
+    height: 380px;
+    background-color:#ffffff;
+    border-radius: 16px;
+    margin: 10px;
+
+
+  
+}
+
+.card-body{
+    padding: 20px;
+  
+}
+
+del{
+    color: rgb(191, 30, 30);
+    padding-right: 10px;
+}
+
+.card-img{
+    width: 200px;
+    height: 175px;
+    object-fit: cover;
+}
+.card-desciption{
+    padding-top:16px;
+    padding-bottom:4px;
+}
+.heading{
+    font-size: var.$p-md;
+    font-weight:bold;
+}
+p{
+    font-size: var.$p-sm;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+
+}
+
+
+
+
+
+
+
+
+// -------------------Responsive-Section-------------------
+
+
+
+@media all and (min-width: 120px) and (max-width: 320px) {
+
+    .cards{
+        width: 200px;
+        height: 430px;
+    }
+
+.card-img{
+  width: 150px;
+}
+    
+}
+
+
+@media all and (min-width: 481px) and (max-width: 600px) {
+
+    .cards{
+        width: 220px;
+        height: 420px;
+    }
+    .card-img{
+        width: 190px;
+    }
+    
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .cards{
+        width: 222px;
+        height: 420px;
+    }
+
+    .card-img{
+        width: 190px;
+    }
+    .heading{
+        font-size: var.$p-md;
+    }
+
+    
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+ 
+    
+.cards{
+    width: 232px;
+    height: 415px;
+}
+   
+  
+}
+
+@media  all and (min-width: 1200px) {
+    .card-img{
+        width: 230px;
+    }
+}
+

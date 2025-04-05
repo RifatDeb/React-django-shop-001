@@ -1,0 +1,58 @@
+@use '../Base-folder/index' as var ;
+
+.action-icon{
+margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color:#3B823E;
+    padding: 8px;
+    border-radius: 10px;
+    color: #ffff;
+  
+}
+
+p{
+    font-size: var.$p-md;
+}
+.cart-img{
+    width: 220px;
+    height: 220px;
+}
+
+
+.cart-section{
+    display: flex;
+    margin: 30px 0px;
+
+    text-align: left;
+
+}
+.discription-section{
+padding: 10px 15px;
+
+h5{
+    text-align: left;
+  
+}
+}
+
+.quntity-button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(87, 86, 86);
+}
+
+
+// -------------------Responsive-Section-------------------
+
+@media all and (min-width: 120px) and (max-width: 768px) {
+
+    .cart-section{
+        display: flex;
+flex-direction: column;
+    
+    }
+    
+}

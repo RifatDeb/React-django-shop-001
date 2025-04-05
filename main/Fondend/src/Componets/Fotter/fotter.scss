@@ -1,0 +1,56 @@
+@use '../Base-folder/index' as var ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fotter-section{
+    background-color: #436E35;
+    padding: 40px;
+    color: #ffff;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.fotter-heading{
+    font-size: var.$p-lg;
+    font-family: var.$secondary-font;
+    font-weight: bold;
+
+}
+
+.brand-icon{
+   
+    width: 179px;
+    height: 74px;
+}
+.badge-icon{
+   
+    height: 160px;
+    width: 178px;
+}
+.logos{
+    margin-left: 5px;
+    
+}
+
+
+@media all and (max-width: 300px) {
+   .badge-icon{
+    width: 140px;
+   } 
+
+   .brand-icon{
+    width: 140px;
+   }
+}

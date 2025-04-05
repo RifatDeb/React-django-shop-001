@@ -1,0 +1,87 @@
+
+@use '../Base-folder/index' as var ;
+
+.style{
+    text-align: center;
+    align-items: center;
+}
+
+
+.headings{
+    text-align: center;
+    align-items: center;
+padding-top: 50px;
+    font-family: var.$primary-font;
+    font-size: var.$heading-2;
+    font-weight: bold;
+}
+
+hr{
+    color: #343434;
+    width: 220px;
+    display: inline-block; 
+   
+}
+
+
+
+
+// -------------------Responsive-Section-------------------
+
+@media all and (min-width: 120px) and (max-width: 320px) {
+
+    .headings{ 
+        font-size: var.$heading-3;
+    }
+    
+}
+
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+
+    .headings{ 
+        font-size: var.$heading-3;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+// -------------------Responsive-Section-------------------
+
+
+
+// @media all and (min-width: 120px) and (max-width: 320px) {
+
+  
+    
+// }
+
+
+// @media all and (min-width: 321px) and (max-width: 480px) {
+
+
+    
+// }
+
+// @media all and (min-width: 481px) and (max-width: 768px) {
+
+  
+    
+// }
+
+// @media all and (min-width: 769px) and (max-width: 1024px) {
+
+    
+// }
+
+// @media all and (min-width: 1025px) and (max-width: 1200px) {
+
+  
+// }
+

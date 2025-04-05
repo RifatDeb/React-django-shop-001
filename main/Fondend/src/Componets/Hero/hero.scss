@@ -1,0 +1,57 @@
+
+@use '../Base-folder/index' as var ;
+
+.hero{
+    background-image: url(../../assets/hero.png);
+    object-fit: cover;
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( #436E35);
+}
+
+.hero-title{
+    color: var.$primary-color;
+    font-size: var.$heading-1;
+    font-weight:600;   
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+// -------------------Responsive-Section-------------------
+
+
+
+@media all and (min-width: 120px) and (max-width: 320px) {
+
+    .hero-title{
+        font-size: var.$heading-3; 
+
+    }
+    .hero{
+        width: auto;
+      }
+    
+    
+}
+
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+
+    .hero-title{
+        font-size: var.$heading-2; 
+    }
+    
+    
+}
+
+
+
+
